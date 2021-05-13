@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+body {
+  margin: 0;
+  background-color:  hsl(233, 47%, 7%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin: 60px auto 8px auto;
+  width: 900px;
+  border-radius: 16px;
+}
+
+.content {
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  padding: 25px 36px;
+  border-radius: 8px 0 0 8px;
+}
+
+.content h1 {
+  font-family: 'Lexend Deca', sans-serif; 
+  padding-bottom: 16px;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.3);
+}
+
+.content strong {
+  color: hsl(277, 64%, 61%) ;
+  
+}
+
+.content p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: lighter;
+  opacity: .8;
+  padding-bottom: 36px;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.3);
+}
+
+.image-half {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 0 8px 8px 0;
+}
+
+.stats-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stats-inline li {
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.stats-inline h2, p {
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.stats-inline h2{
+  margin-top: 16px;
+  font-size: 24px ;
+  color: hsl(0, 0%, 100%);
+}
+
+.stats-inline p {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+.attribution {
+  color: rgb(168, 168, 168);
+  opacity: .8;
+}
+
+.attribution a {
+  color: rgb(255, 255, 255);
+}
+
+.mine:hover {
+  color: hsl(277, 64%, 61%);
+}
